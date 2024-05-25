@@ -3,7 +3,7 @@
 // Navbar importing
 import { commanNav } from "./scripts.js";
 
-const navItems = commanNav();
+let navItems = commanNav();
 document.querySelector("#navbar").innerHTML = navItems;
 
 // Get data from server
